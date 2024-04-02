@@ -11,7 +11,7 @@ Version 1.0
 */
 
 import com.solution.hackerrank.Solution;
-import com.solution.hackerrank.utility.TestCaseReader;
+import com.solution.hackerrank.utility.TestCaseUtil;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class TravellingSalesPerson implements Solution<Void> {
 
     @Override
     public Void answer() throws Exception {
-        Scanner in = TestCaseReader.getInputScanner("test_cases/traveling_sales_person_tc_1.txt");
+        Scanner in = TestCaseUtil.getInputScanner("test_cases/traveling_sales_person_tc_1.txt");
         int T = in.nextInt();
         int[][] cost;
 

@@ -11,11 +11,9 @@ Version 1.0
 */
 
 import com.solution.hackerrank.Solution;
-import com.solution.hackerrank.utility.TestCaseReader;
+import com.solution.hackerrank.utility.TestCaseUtil;
 
 import java.io.IOException;
-import java.time.Duration;
-import java.time.Instant;
 import java.util.*;
 
 public class DequeMaxUniqueNumberSubArray implements Solution<Void> {
@@ -31,7 +29,7 @@ public class DequeMaxUniqueNumberSubArray implements Solution<Void> {
 
     @Override
     public Void answer() throws Exception {
-        Scanner in = TestCaseReader.getInputScanner("test_cases/max_unique_number_sub_array_tc_1.txt");
+        Scanner in = TestCaseUtil.getInputScanner("test_cases/max_unique_number_sub_array_tc_1.txt");
         Deque<Integer> deque = new ArrayDeque<>();
         Set<Integer> set = new HashSet<>();
         int n = in.nextInt();

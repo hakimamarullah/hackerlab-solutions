@@ -11,7 +11,7 @@ Version 1.0
 */
 
 import com.solution.hackerrank.Solution;
-import com.solution.hackerrank.utility.TestCaseReader;
+import com.solution.hackerrank.utility.TestCaseUtil;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -70,7 +70,7 @@ public class KimAndRefrigerators implements Solution<Void> {
 
     @Override
     public Void answer() throws Exception {
-        Scanner sc = TestCaseReader.getInputScanner("test_cases/kim_and_refrigerator_tc_1.txt");
+        Scanner sc = TestCaseUtil.getInputScanner("test_cases/kim_and_refrigerator_tc_1.txt");
         for (int i = 1; i <= 10; i++) {
             int N = sc.nextInt();
             Point[] points = new Point[N+2];
