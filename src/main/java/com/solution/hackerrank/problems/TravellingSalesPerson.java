@@ -13,7 +13,6 @@ Version 1.0
 import com.solution.hackerrank.Solution;
 import com.solution.hackerrank.utility.TestCaseReader;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class TravellingSalesPerson implements Solution<Void> {
